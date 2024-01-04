@@ -85,9 +85,11 @@ class MovieDetailsScreen extends StatelessWidget {
                     ),
                     Row(
                       children: [
-                        Text(
-                          movie.title != null ? movie.title! : movie.name!,
-                          style: const TextStyle(fontSize: 26),
+                        Expanded(
+                          child: Text(
+                            movie.title != null ? movie.title! : movie.name!,
+                            style: const TextStyle(fontSize: 26),
+                          ),
                         ),
                       ],
                     ),
