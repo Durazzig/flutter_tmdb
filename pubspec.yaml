@@ -1,0 +1,32 @@
+name: tmdb
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0
+  provider: ^6.1.1
+  internet_connection_checker: ^1.0.0+1
+  http: ^0.13.5
+  collection: ^1.17.2
+  fade_shimmer: ^2.2.0
+  cached_network_image: ^3.3.0
+  flutter_inappwebview: ^5.8.0
+  shared_preferences: ^2.0.20
+  webview_flutter: ^4.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
